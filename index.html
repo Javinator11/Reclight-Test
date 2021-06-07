@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</head>
+<!-- NavBar and Cover-->
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./Adopt-me-assets/img/logo.png" class="img-thumbnail" alt="Doodle of dog">
+                    Adoptme.Org
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">WHAT we do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whoWeAre">WHO we are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whatWeDo">EVENTS adoption</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="cover d-flex justify-content-end align-items-start flex-column">
+            <div class="container-fluid cover-bottom d-flex justify-content-center align-items-start flex-column">
+                <h1>
+                    This is your new family!
+                </h1>
+                <button type="button" class="btn btn-outline-danger">
+                    ADOPT NOW
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- First two cards -->
+    <div class="page-container">
+        <div class="content-wrap">
+            <section>
+                <div class="container mt-5 mb-5" id="whoWeAre">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card h-100 shadow mb-5 bg-body">
+                                <div class="card-title card-title-one">
+                                    <h1 class="card-title card-title-one-text p-3">Volunteers</h1>
+                                </div>
+                                <div title="Mujer cargando un cachorro" class="cover cover-small"></div>
+                                <div class="card-body card-body-one">
+                                    <p class="card-text">
+                                        Amazing people, doing the difference every single day. Join us now and be part
+                                        of a
+                                        community that is changing the world.
+                                    </p>
+                                    <button type="button" class="btn btn-outline-primary">
+                                        JOIN US
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-8">
+                            <div class="card h-100 mb-5 bg-body">
+                                <div class="card-title card-title-two">
+                                    <h1 class="card-title card-title-two-text p-3">Testimonial of the Month</h1>
+                                </div>
+                                <div class="card-body video">
+                                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oO1k4Vyt8WI"
+                                        title="YouTube video player" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Bottom two cards and right dog photo -->
+            <section>
+                <div class="container mt-5 mb-5" id="whatWeDo">
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-6">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                        aria-selected="true">PROGRAMS</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-profile" type="button" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">ASSOCIATED
+                                        COMPANIES</button>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="row">
+                                        <div class="card card-hor mb-3">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="card-hor-img" src="Adopt-me-assets/img/friend-in-trouble.png" width="100%"
+                                                        alt="Dog comming out of doggy house">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Behavior Program</h5>
+                                                        <p class="card-text">This is a wider card with supporting text
+                                                            below
+                                                            as
+                                                            a
+                                                            natural
+                                                            lead-in to
+                                                            additional content. This content is a little bit longer.</p>
+                                                        <button type="button" class="btn btn-outline-danger">
+                                                            LEER MÁS
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="card card-hor mb-3">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="card-hor-img" src="Adopt-me-assets/img/two-dogs.jpg" width="100%"
+                                                        alt="Two dogs sitting together">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">MY NEXT FAMILY</h5>
+                                                        <p class="card-text">Are you looking for a new family member?
+                                                            Then,
+                                                            this
+                                                            program
+                                                            is for you. Don´t buy, adopt here, and let´s give a home to
+                                                            this
+                                                            amazing
+                                                            friends.</p>
+                                                        <button type="button" class="btn btn-outline-danger">
+                                                            LEER MÁS
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Button showing companies-->
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="row">
+                                        <div class="card card-hor mb-3">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="card-hor-img" src="Adopt-me-assets/img/Comapny1.jpg" width="100%"
+                                                        alt="Dog comming out of doggy house">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Company 1</h5>
+                                                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur
+                                                            adipiscing elit. Nullam fermentum commodo arcu, in
+                                                            condimentum leo aliquam ut.</p>
+                                                        <button type="button" class="btn btn-outline-danger">
+                                                            LEER MÁS
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="card card-hor mb-3">
+                                            <div class="row g-0">
+                                                <div class="col-md-4">
+                                                    <img class="card-hor-img" src="Adopt-me-assets/img/Comapny2.jpg" width="100%"
+                                                        alt="Two dogs sitting together">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Company 2</h5>
+                                                        <p class="card-text">Cras maximus ipsum volutpat, molestie enim
+                                                            vel, dictum nunc. Cras sit amet nisi sed dolor vulputate
+                                                            vestibulum in vel diam. Nunc tincidunt turpis vitae
+                                                            malesuada commodo. </p>
+                                                        <button type="button" class="btn btn-outline-danger">
+                                                            LEER MÁS
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-6 d-flex justify-content-center">
+                            <img id="wiener-dog" src="Adopt-me-assets/img/Perro_salchicha.jpg" alt="Dog sitting smiling"
+                                height="400" class="p-2 mt-4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+        <div class="footer">
+
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-4 flex-column footer-content-one d-flex justify-content-end">
+                        <h2 class="content-one">
+                            <img src="./Adopt-me-assets/img/logo.png" class="img-thumbnail" alt="Doodle of dog">
+                            Adoptme.Org
+                        </h2>
+                        <h5 class="content-one-text">
+                            Main St #12345
+                        </h5>
+                        <h5 class="content-one-text" style="padding-top: 2%;">
+                            Amazing City, 45677
+                        </h5>
+                    </div>
+                    <div class="col-8 footer-content-two d-flex justify-content-start">
+                        <h4 class="content-two-text">
+                            <a href="index.html" class="footer-links">
+                                WHAT we do
+                            </a>
+                        </h4>
+                        <h4 class="content-two-text">
+                            <a href="#whoWeAre" class="footer-links">
+                                WHO we are
+                            </a>
+                        </h4>
+                        <h4 class="content-two-text">
+                            <a href="#whatWeDo" class="footer-links">
+                                EVENTS adoption
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                adoptme.org
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

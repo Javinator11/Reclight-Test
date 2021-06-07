@@ -1,0 +1,192 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    background-color: #EF3E42 !important;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.img-thumbnail{
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.cover{
+    height: 500px;
+    background-image: url(./Adopt-me-assets/img/dogs.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #EF3E42;
+}
+
+.cover-small{
+    height: 200px;
+    background-image: url(./Adopt-me-assets/img/girl.png);
+    background-blend-mode: normal;
+}
+
+.cover-bottom{
+    height: 150px;
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: darken;
+    margin-left: 10%;
+}
+
+.btn-outline-danger{
+    color: #EF3E42 !important;
+    border-color: #EF3E42 !important;
+}
+
+.btn-outline-danger:hover{
+    color: white !important;
+}
+
+.btn-outline-primary{
+    color: #332982 !important;
+    border-color: #332982 !important;
+}
+
+.btn-outline-primary:hover{
+    color: white !important;
+}
+
+.card{
+     border: 0 !important;
+}
+
+.card-title-one{
+    background-color: #332982; 
+}
+
+.card-title-one-text{
+    color: white;
+}
+
+.card-body-one{
+    margin-bottom: 8%;
+}
+
+.card-title-two{
+    background-color: #EF3E42;
+}
+
+.card-title-two-text{
+    color: white;
+}
+
+.card-hor{
+    max-width: 700px; 
+    max-height: 192px;
+}
+
+.card-hor-img{
+    max-height: 192px
+}
+
+.video{
+    width: 100%;
+    height: auto;
+}
+
+
+.page-container {
+    position: relative;
+}
+
+.content-wrap {
+    padding-bottom: 50px; 
+    min-height: 100%;
+}
+
+.container-flex{
+    flex-wrap: wrap;
+}
+
+.footer{
+    background: #332982;
+    color: white;
+    height: 450px;
+    position: relative;
+}
+
+.footer .footer-content{
+    border-top: 5px solid #EF3E42;
+    height: 400px;
+    overflow-x: hidden;
+}
+
+.footer .footer-bottom{
+    background: #251d63;
+    color: #3f329e;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-left: 0px;
+    bottom: 0px;
+    padding-top: 1%;
+}
+
+.footer-content-one{
+    height: 100%;
+    padding-top: 2%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.content-one{
+    padding-top: 10%;
+    padding-left: 20%;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.content-one-text{
+    padding-top: 10%;
+    padding-left: 23%;
+    height: 100%;
+}
+
+.footer-content-two{
+    padding-top: 7%;
+}
+
+.content-two-text{
+    padding: 4%;
+}
+
+.nav-pills .nav-link{
+    color:#777;
+}
+
+.nav-pills .nav-link.active{
+    color:#332982 !important;
+    background-color: transparent !important;
+    text-decoration: underline 5px;
+}
+
+a.footer-links{
+    color: white;
+    text-decoration: none;
+}
+
+a.footer-links:hover{
+    color: rgb(145, 141, 141);
+}
